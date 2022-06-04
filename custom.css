@@ -1,0 +1,713 @@
+/** ---HER STARTER STYLING FOR SHOP SIDEN-------------------- SHOP-------------------------- */
+#flaske {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 2rem;
+}
+
+element.style {
+  color: #dc7436;
+}
+
+element.style:hover {
+  text-decoration: underline;
+}
+
+#test1 {
+  border: solid;
+  border-width: 1px;
+  border-color: #adb9ae;
+  padding: 1rem;
+}
+
+#test1:hover {
+  transform: scale(1.05);
+  border: solid;
+  border-width: 1px;
+  border-color: #adb9ae;
+  padding: 1rem;
+}
+
+.vis_ikke {
+  display: none;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+  margin-top: 9px;
+}
+
+#den_skal_være_i_midten {
+  justify-content: center;
+}
+
+#mobil-filter-knap {
+  width: 100%;
+  margin-top: 30px;
+  color: #2b7f66;
+  border-color: #2b7f66;
+  font-size: 2rem;
+}
+
+#mobil-filter-knapSHOP {
+  width: 100%;
+  margin-top: 30px;
+  color: #2b7f66;
+  border-color: #2b7f66;
+  font-size: 2rem;
+}
+
+#filterSHOP {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+#stort_billede {
+  display: none;
+}
+
+#stort_billede {
+  position: relative !important;
+}
+
+#overkrift_til_shoppen {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  margin-top: 25px;
+}
+
+#container h5 {
+  font-size: 1.3rem;
+}
+
+#container p {
+  font-size: 1.2rem;
+}
+/* #container_til_web_kun {
+  display: none;
+} */
+
+#container {
+  display: flex;
+}
+
+#priser {
+  display: flex !important;
+  justify-content: center !important;
+  font-size: 2rem !important;
+  margin-top: 50px;
+}
+
+#overskrift-kombucha {
+  background-color: #e4d6c3;
+  display: flex !important;
+  justify-content: center !important;
+  text-decoration: underline !important;
+}
+
+#underoverskrift-kombucha {
+  /* background-color: #e4d6c3; */
+  margin-bottom: 0% !important;
+  color: #fffdef !important;
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  padding-bottom: 30px !important;
+  /* margin-bottom: 10px !important; */
+}
+
+.forside-container {
+  /* display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(3, 1fr) !important; */
+  /* position: relative !important; */
+  background-color: #e4d6c3 !important;
+}
+
+.wp-block-media-text__content {
+  margin: 0% !important;
+}
+
+#smagen_overskrift {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+#paragraf_1_smagen {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+#paragraf_2_smagen {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+#test1 {
+  height: fit-content;
+}
+
+#beskrivelse_under_h1 {
+  /* background-color: #dae4db; */
+  max-height: 513.5px;
+}
+
+#martin {
+  margin-left: 39px;
+}
+
+#martin_p {
+  margin-left: 69px;
+  margin-right: 52px;
+}
+
+#beskrivelse_under_h1 p {
+  padding: 20px !important;
+  max-height: 135.5px;
+  text-align: justify;
+}
+/** ---------SHOP-------GJORT RESPONSIV--1. MEDIA---- TIL WEB -690px-------- */
+
+@media (min-width: 501px) {
+  .wp-block-media-text__media {
+    display: block !important;
+  }
+}
+
+@media (min-width: 690px) {
+  #web-responsiv {
+    display: flex;
+  }
+
+  #alleSHOP {
+    text-align: left;
+    color: #ec6d1e;
+  }
+
+  #alleForhandlere {
+    text-align: left;
+    color: #ec6d1e;
+  }
+
+  .vis_ikke {
+    display: block;
+  }
+
+  #filterSHOP {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 60px;
+  }
+
+  .filterKnapper {
+    color: #ec6d1e;
+    text-align: left;
+  }
+  #filter button {
+    color: #ec6d1e;
+    text-align: left;
+  }
+  #test1 {
+    border: solid;
+    border-width: 1px;
+    border-color: #adb9ae;
+    padding: 1rem;
+    /* max-height: 388px; */
+  }
+
+  #mobil-filter-knap {
+    color: #2b7f66;
+    border: none;
+    font-size: 3rem;
+  }
+
+  #mobil-filter-knapSHOP {
+    color: #2b7f66;
+    border: none;
+    font-size: 2rem;
+  }
+  #web-responsiv {
+    justify-content: space-evenly;
+  }
+
+  #stort_billede {
+    display: block;
+  }
+
+  #web_overskrift_og_billede {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+  }
+
+  #beskrivelse_under_h1 p {
+    padding: 20px !important;
+    max-height: 135.5px;
+    text-align: justify;
+  }
+
+  /* #intro_til_shop {
+    padding-left: 20px !important;
+  } */
+
+  /* .hvad_er_kombucha_billede {
+    display: block;
+  } */
+  #lille_pris,
+  #stor_pris {
+    display: flex;
+    gap: 30px;
+  }
+  /* ------VIEW PÅ SHOPPEN ------ SHOPPP-------WEB---------------- */
+
+  #single-flaske-billede {
+    /* margin-left: 100px; */
+    padding: 22px;
+    min-width: 260px;
+  }
+
+  #single-overskrift-og-storelse {
+    gap: 60px;
+  }
+
+  #hallo {
+    margin: 24px;
+  }
+
+  #single-overskrift-og-storelse {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-flow: inherit !important;
+  }
+
+  /* ----------FORHANDLERE ---- responsiv ---- web overgang */
+
+  #forhandlere {
+    margin: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
+
+  #den_skal_være_i_midten-FORHANDLERE {
+    justify-content: center;
+  }
+
+  #mobil-filter-knap {
+    position: sticky;
+    top: 176px;
+    width: 10%;
+  }
+
+  #filter {
+    position: sticky;
+    top: 290px;
+    width: 85%;
+    margin-left: 14px;
+  }
+
+  #filterSHOP {
+    top: 290px !important;
+    width: 85% !important;
+    margin-left: 14px !important;
+  }
+
+  /* ----------------- burger menu ----- design  */
+
+  .main-navigation {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .ast-main-header-bar-alignment {
+    background-color: #b44521;
+  } */
+
+  /* #container_til_web_kun {
+    display: block;
+
+  } */
+
+  /* #container {
+    display: none;
+  } */
+}
+
+/*! --------------------------------------------------------------------------------------- */
+@media (min-width: 910px) {
+  #test1 {
+    border: solid;
+    border-width: 1px;
+    border-color: #adb9ae;
+    padding: 1rem;
+    /* max-width: 400px   ; */
+  }
+  #singleView-slik {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+  }
+  #alt_indhold_for_single_view {
+    margin: 30px;
+  }
+
+  /** her kommer den responsive styling på singleviewet på forhandlere siden */
+
+  #forhandlere {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .forside-container {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(3, 1fr) !important; */
+    position: relative !important;
+    background-color: none !important;
+  }
+
+  #forside-billede {
+  }
+
+  /* #forside-billede img {
+    height: 100% !important;
+    object-fit: cover;
+  } */
+
+  #overskrift-kombucha {
+    /* grid-column: 1/2 !important;
+    grid-row: 1/2 !important; */
+    position: absolute !important;
+    top: 0% !important;
+    left: 0% !important;
+    margin-top: 5.5% !important;
+    margin-left: 4% !important;
+    width: max-content !important;
+    text-decoration: none !important;
+    font-size: 2.7rem !important;
+  }
+
+  #underoverskrift-kombucha {
+    position: absolute !important;
+    color: #f8f8ec !important;
+    bottom: 2% !important;
+    right: 5% !important;
+    margin: 0% !important;
+    width: 21ch !important;
+    text-transform: uppercase !important;
+    text-align: start !important;
+    background-color: none !important;
+    font-size: 1.15rem !important;
+    line-height: 30px !important;
+  }
+}
+
+@media (min-width: 1100px) {
+  #overskrift-kombucha {
+    /* grid-column: 1/2 !important;
+    grid-row: 1/2 !important; */
+    position: absolute !important;
+    top: 0% !important;
+    left: 0% !important;
+    margin-top: 5.5% !important;
+    margin-left: 4% !important;
+    width: max-content !important;
+    text-decoration: none !important;
+    font-size: 4rem !important;
+  }
+
+  #underoverskrift-kombucha {
+    font-size: 1.8rem !important;
+    position: absolute !important;
+    color: #f8f8ec !important;
+    bottom: 7% !important;
+    right: 3% !important;
+    margin: 0% !important;
+    width: 21ch !important;
+    text-transform: uppercase !important;
+    text-align: start !important;
+    line-height: 45px !important;
+    background-color: none !important;
+  }
+}
+
+/* *----------HER STARTER STYLING PÅ SHOP PÅ------SINGLE-VIEW------ SHOP-MOBIL---------------- */
+
+.pic {
+  border: solid;
+  border-color: #2b7f66;
+  border-width: 4px;
+  margin-top: 20px;
+  margin-left: 10px;
+  max-width: 435px;
+}
+
+#single-overskrift_nummeret {
+  font-size: 2.5rem;
+  width: 7ch !important;
+}
+
+#single-overskrift,
+.kortbeskrivelse,
+.langbeskrivelse {
+  margin: 15px;
+}
+
+#single-kanpper-i-bunden {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+#container-tilbage {
+  display: flex;
+  justify-content: end;
+}
+
+#tilbage {
+  color: #ec6d1e;
+  font-size: 1.1rem;
+  margin-right: 9px;
+}
+
+#tilbage p:hover {
+  color: #ec6d1e;
+  font-size: 1.1rem;
+  margin-right: 9px;
+  text-decoration: underline;
+}
+
+#single-knapper-i-bunden-kob {
+  color: #f8f8ec;
+  background-color: #2b7f66;
+  /* 
+  border: red solid 10px; */
+}
+
+#single-flaske-container {
+  display: flex;
+  margin: 15px;
+  gap: 30px;
+}
+
+.single-liter-knapper-lille {
+  color: #ec6d1e;
+  border: #ec6d1e solid;
+  font-size: 1.2rem;
+  max-height: 50px;
+}
+
+.single-liter-knapper-lille:hover,
+.single-liter-knapper-lille.is-active {
+  color: #f8f8ec;
+  border: #ec6d1e solid;
+  background-color: #ec6d1e;
+  font-size: 1.2rem;
+}
+
+.single-liter-knapper-stor {
+  color: #ec6d1e;
+  border: #ec6d1e solid;
+  font-size: 1.2rem;
+  max-height: 50px;
+}
+
+.single-liter-knapper-stor:hover,
+.single-liter-knapper-stor.is-active {
+  color: #f8f8ec;
+  border: #ec6d1e solid;
+  background-color: #ec6d1e;
+  font-size: 1.2rem;
+}
+
+#antal-kanppen {
+  color: #ec6d1e;
+  border: #ec6d1e solid;
+  font-size: 1.2rem;
+}
+
+/* #single-knapper-i-bunden-køb {
+  background-color: #86a087;
+  border: #86a087 solid;
+  color: #f8f8ec;
+  font-size: 1.2rem;
+} */
+
+#single-overskrift-og-storelse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+}
+
+.kortbeskrivelse {
+  font-size: 1.5rem;
+}
+
+/* * -----------------ANDRE FORHANDLERE STYLING MOBIL ------------------ */
+#test2 {
+  border: none;
+}
+
+/* #test2:hover {
+  border: none;
+  transform: scale(1.1);
+} */
+
+#forhandlere {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+
+#test2 p {
+  max-width: 245px;
+}
+/* #forside_styling #secondary {
+  display: none;
+}
+
+#forside_styling #primary {
+  width: 100%;
+} */
+
+/* -----------skal ske med media------------
+#shop_main {
+  display: flex;
+>>>>>>> andrea
+}
+
+/* ---- Mobil filter design ------ */
+
+/* ----------------- RETTELESER DER ER SKET I WP----------- */
+/* #forside_styling #secondary {
+  display: none;
+}
+
+#forside_styling #primary {
+  width: 100%;
+} */
+
+/* .ast-container,
+.ast-container-fluid {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.ast-separate-container .ast-article-post,
+.ast-separate-container .ast-article-single {
+  padding: 0%;
+} */
+
+/** --------------------- GENERELLE REGLER ----------------------------------- */
+p,
+button,
+h3 {
+  font-family: futura-pt, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+ul li {
+  font-family: futura-pt, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: futura-pt, sans-serif;
+
+  font-weight: 600;
+
+  font-style: normal;
+}
+
+h5.navn {
+  color: black;
+  font-size: 1.1rem;
+
+  font-family: futura-pt, sans-serif;
+}
+
+.has-ast-global-color-8-color,
+.has-text-color {
+  margin-left: 30px;
+}
+
+.wp-block-media-text__content {
+  margin-left: 30px;
+}
+
+#ast-hf-mobil-menu {
+}
+
+img .wp-block-cover__image-background,
+.wp-block-cover__image-background {
+  height: auto;
+}
+
+.wp-block-cover-image img.wp-block-cover__image-background,
+.wp-block-cover-image video.wp-block-cover__video-background,
+.wp-block-cover img.wp-block-cover__image-background,
+.wp-block-cover video.wp-block-cover__video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  -o-object-fit: cover;
+  object-fit: cover;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* .entry-content .wp-container-15,
+.wp-container-14,
+.wp-container-13,
+.wp-container-12,
+.wp-container-10,
+.wp-container-9,
+.wp-container-8,
+.wp-container-5,
+.wp-container-6 {
+  display: none;
+} */
+
+.has-text-align-center {
+  font-size: 1rem;
+}
+
+.wp-block-image {
+  margin: 0%;
+}
+
+.alignfull .has-text-color .has-background {
+  margin: 0%;
+}
+
+.site-header {
+  position: sticky;
+  width: 100%;
+  top: 0%;
+  /* margin-bottom: 2rem; */
+}
+
+#ast-hf-mobile-menu {
+  padding: 100px !important;
+}
+.ast-icon {
+  padding-right: 9px !important;
+}
