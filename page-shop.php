@@ -11,7 +11,7 @@ get_header();
 <div id="web_overskrift_og_billede">
 <div id="stort_billede">
 	
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/shop-splash.webp" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/shop-splash.webp" alt="billede_med_flasker"  />
 
   </div>
   <!-- <div id="beskrivelse_under_h1"> -->

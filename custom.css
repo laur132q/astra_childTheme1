@@ -171,6 +171,14 @@ element.style:hover {
   max-height: 135.5px;
   text-align: justify;
 }
+
+#bullets {
+  margin-left: 80px !important;
+}
+
+#shop_videre_lille {
+  margin-bottom: 0% !important;
+}
 /** ---------SHOP-------GJORT RESPONSIV--1. MEDIA---- TIL WEB -690px-------- */
 
 @media (min-width: 501px) {
@@ -395,15 +403,15 @@ element.style:hover {
   #underoverskrift-kombucha {
     position: absolute !important;
     color: #f8f8ec !important;
-    bottom: 2% !important;
-    right: 5% !important;
+    bottom: 1% !important;
+    right: 1% !important;
     margin: 0% !important;
-    width: 21ch !important;
+    width: 14ch !important;
     text-transform: uppercase !important;
     text-align: start !important;
     background-color: none !important;
-    font-size: 1.15rem !important;
-    line-height: 30px !important;
+    font-size: 2rem !important;
+    line-height: 40px !important;
   }
 }
 
@@ -422,16 +430,16 @@ element.style:hover {
   }
 
   #underoverskrift-kombucha {
-    font-size: 1.8rem !important;
+    font-size: 3rem !important;
     position: absolute !important;
     color: #f8f8ec !important;
-    bottom: 7% !important;
-    right: 3% !important;
+    bottom: 3% !important;
+    right: 0% !important;
     margin: 0% !important;
-    width: 21ch !important;
+    width: 14ch !important;
     text-transform: uppercase !important;
     text-align: start !important;
-    line-height: 45px !important;
+    line-height: 56px !important;
     background-color: none !important;
   }
 }
@@ -494,14 +502,15 @@ element.style:hover {
   margin: 15px;
   gap: 30px;
 }
-
+/* Dette er den lille knaps styling, når den ikke er aktiv */
 .single-liter-knapper-lille {
   color: #ec6d1e;
   border: #ec6d1e solid;
   font-size: 1.2rem;
   max-height: 50px;
 }
-
+/* Dette er hovereffekten, og den aktive funktion, som knappen får */
+/* når den er blevet trykket på */
 .single-liter-knapper-lille:hover,
 .single-liter-knapper-lille.is-active {
   color: #f8f8ec;
@@ -509,14 +518,15 @@ element.style:hover {
   background-color: #ec6d1e;
   font-size: 1.2rem;
 }
-
+/* Dette er den store knaps styling, når den ikke er aktiv */
 .single-liter-knapper-stor {
   color: #ec6d1e;
   border: #ec6d1e solid;
   font-size: 1.2rem;
   max-height: 50px;
 }
-
+/* Dette er hovereffekten, og den aktive funktion, som knappen får */
+/* når den er blevet trykket på */
 .single-liter-knapper-stor:hover,
 .single-liter-knapper-stor.is-active {
   color: #f8f8ec;
