@@ -21,7 +21,7 @@ get_header();
      <button id="mobil-filter-knap" >
 		 Filter
 		 </button>
-		 <nav id="filterSHOP" class="vis_ikke" >
+		 <nav id="filterFORHANDLERE" class="vis_ikke" >
 	       <button id="alleForhandlere"data-steder="alle">Alle</button>
         </nav>
 	
@@ -88,7 +88,7 @@ async function getJson() {
 
 function opretKnapper() {
 categories.forEach(cat=> {
-		document.querySelector("#filterSHOP").innerHTML += `<button class="filterKnapper" data-steder="${cat.id}">${cat.name}</button>`
+		document.querySelector("#filterFORHANDLERE").innerHTML += `<button class="filterKnapper" data-steder="${cat.id}">${cat.name}</button>`
 	});
 
 
@@ -97,7 +97,7 @@ categories.forEach(cat=> {
 }
 
 function addEventListenersToButtons() {
-document.querySelectorAll("#filterSHOP button").forEach(elm => {elm.addEventListener("click", filtrering);
+document.querySelectorAll("#filterFORHANDLERE button").forEach(elm => {elm.addEventListener("click", filtrering);
 })
 };
 
@@ -159,8 +159,8 @@ const btn = document.querySelector("#mobil-filter-knap");
 
 
 
-const kategorier = document.querySelector("#filterSHOP");
-const alle_knapper = document.querySelectorAll("#filterSHOP button");
+const kategorier = document.querySelector("#filterFORHANDLERE");
+const alle_knapper = document.querySelectorAll("#filterFORHANDLERE button");
 
 
 btn.addEventListener("click", toggleHeleMenuen);
@@ -169,7 +169,7 @@ btn.addEventListener("click", toggleHeleMenuen);
 function toggleHeleMenuen()  {
 	console.log("virker_det_her");
 	// luk.classList.toggle("vis_ikke");
-    document.querySelectorAll("#filterSHOP button").forEach(elm => {elm.classList.toggle("vis_ikke");
+    document.querySelectorAll("#filterFORHANDLERE button").forEach(elm => {elm.classList.toggle("vis_ikke");
 	btn.classList.toggle("vis_ikke");
 	});
 

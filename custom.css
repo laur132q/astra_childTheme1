@@ -67,6 +67,13 @@ element.style:hover {
   margin-bottom: 60px;
 }
 
+#filterFORHANDLERE {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
 #stort_billede {
   display: none;
 }
@@ -136,18 +143,111 @@ element.style:hover {
 }
 
 #smagen_overskrift {
-  padding-left: 30px !important;
+  padding-left: 46px !important;
   padding-right: 30px !important;
 }
-#paragraf_1_smagen {
-  padding-left: 30px !important;
-  padding-right: 30px !important;
+#smagen_underoverskrift1 {
+  margin-left: 70px !important;
+  margin-right: 20px !important;
 }
-#paragraf_2_smagen {
-  padding-left: 30px !important;
-  padding-right: 30px !important;
+#smagen_underoverskrift2 {
+  margin-left: 70px !important;
+  margin-right: 20px !important;
 }
 
+#USP {
+  margin-left: 30px;
+}
+
+#kombucha_svamp {
+  padding-left: 42px !important;
+  padding-right: 30px !important;
+}
+#kombucha_svampP1 {
+  margin-left: 70px !important;
+  margin-right: 20px !important;
+}
+#kombucha_svampP2 {
+  margin-left: 70px !important;
+  margin-right: 20px !important;
+}
+
+#how-to-kombucha {
+  margin-top: 20px !important;
+}
+
+#video {
+  margin-bottom: 70px;
+}
+
+#forsteStep {
+  padding-left: 60px !important;
+  padding-right: 30px !important;
+}
+#forsteStep2 {
+  margin-left: 80px !important;
+  margin-right: 20px !important;
+}
+
+#forsteStep2 ul li {
+  font-family: futura-pt, sans-serif !important;
+}
+
+.wp-container-4 h2 {
+  margin-left: 54px !important;
+  margin-right: 20px !important;
+}
+
+#blivForhandler {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+#blivForhandler2 {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+#UnderOverskrift2 {
+  margin-left: 54px !important;
+  margin-right: 20px !important;
+}
+#UnderOverskrift3 {
+  margin-left: 54px !important;
+  margin-right: 20px !important;
+}
+#UnderOverskrift4 {
+  margin-left: 54px !important;
+  margin-right: 20px !important;
+}
+
+#UnderOverskrift5 {
+  margin-left: 54px !important;
+  margin-right: 20px !important;
+}
+
+#UnderOverskrift6 {
+  margin-left: 54px !important;
+  margin-right: 20px !important;
+}
+
+#andetStep1 {
+  margin-left: 31px !important;
+  margin-right: 20px !important;
+}
+#andetStep2 {
+  margin-left: 54px !important;
+  margin-right: 20px !important;
+}
+#andetStep3 {
+  margin-left: 54px !important;
+  margin-right: 20px !important;
+}
+
+#OmOsTitle {
+  margin-left: 47px !important;
+  margin-top: 20px !important;
+  font-size: 2.3rem !important;
+}
 #test1 {
   height: fit-content;
 }
@@ -158,7 +258,13 @@ element.style:hover {
 }
 
 #martin {
-  margin-left: 39px;
+  margin-left: 66px;
+}
+#julie {
+  margin-left: 33px;
+}
+#HistorieBag {
+  margin-left: 33px !important;
 }
 
 #martin_p {
@@ -178,6 +284,22 @@ element.style:hover {
 
 #shop_videre_lille {
   margin-bottom: 0% !important;
+}
+
+#kontakts_os {
+  margin-left: 121px !important;
+}
+#adress {
+  margin-left: 121px !important;
+}
+.footer-social-inner-wrap {
+  margin-left: 121px !important;
+  margin-right: 38px !important;
+}
+
+.wp-container-2 .wp-container-1 #BlivForhandlerOverSkrift1 {
+  margin-top: 37px !important;
+  margin-left: 112px !important;
 }
 /** ---------SHOP-------GJORT RESPONSIV--1. MEDIA---- TIL WEB -690px-------- */
 
@@ -212,6 +334,19 @@ element.style:hover {
     margin-top: 15px;
     margin-bottom: 60px;
   }
+
+  #filterFORHANDLERE {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 60px;
+  }
+  /* {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 60px;
+  } */
 
   .filterKnapper {
     color: #ec6d1e;
@@ -277,6 +412,7 @@ element.style:hover {
     /* margin-left: 100px; */
     padding: 22px;
     min-width: 260px;
+    margin-bottom: 21px;
   }
 
   #single-overskrift-og-storelse {
@@ -320,7 +456,20 @@ element.style:hover {
     margin-left: 14px;
   }
 
+  #filterFORHANDLERE {
+    top: 290px !important;
+    width: 85% !important;
+    margin-left: 14px !important;
+    position: sticky !important;
+  }
+
   #filterSHOP {
+    top: 290px !important;
+    width: 85% !important;
+    margin-left: 14px !important;
+  }
+
+  #filterFORHANDLERE {
     top: 290px !important;
     width: 85% !important;
     margin-left: 14px !important;
@@ -441,6 +590,20 @@ element.style:hover {
     text-align: start !important;
     line-height: 56px !important;
     background-color: none !important;
+  }
+
+  #OmOsTitle {
+    margin-left: 95px !important;
+    margin-top: 20px !important;
+    font-size: 2.3rem !important;
+  }
+}
+
+@media (min-width: 1101px) {
+  #OmOsTitle {
+    margin-left: 291px !important;
+    margin-top: 20px !important;
+    font-size: 2.3rem !important;
   }
 }
 
